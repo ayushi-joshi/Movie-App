@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.body{
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(0,0,0);
+background: linear-gradient(153deg, rgba(0,0,0,0.9920343137254902) 36%, rgba(3, 43, 83, 0.995) 76%);
+  padding: 0;
+  margin: 0;
+}
+.contact{
+  height: 100vh;
+  width: 100%;
+}
+ .con{
+  background-image:linear-gradient(180deg, #10354d, rgba(34, 106, 151, 0.8)), url(https://dg3fwljcbubde.cloudfront.net/Landing/landing-bg-ww.jpg);
+  height: 100vh;
+ width: 100%;
+background-size: cover;
+ background-repeat: no-repeat;
+
+}
+.con1{
+  background-image:linear-gradient(180deg, #6e93aa, rgba(176, 223, 252, 0.8)), url(https://dg3fwljcbubde.cloudfront.net/Landing/landing-bg-ww.jpg);
+  height: 100vh;
+  width: 100%;
+ background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn{
+  background: rgb(0,0,0);
+background: linear-gradient(153deg, rgba(0,0,0,0.9920343137254902) 0%, rgba(39,156,190,0.9948354341736695) 100%);
+}
+.light{
+  background: rgb(215,215,215);
+  background: linear-gradient(153deg, rgba(215,215,215,0.9920343137254902) 0%, rgba(252,253,255,1) 100%);
+}
+.dark{
+  background: rgb(0,0,0);
+background: linear-gradient(153deg, rgba(0,0,0,0.9920343137254902) 36%, rgba(3, 43, 83, 0.995) 76%);
+}
