@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
 
 
-      <nav className={`fixed h-[10vh] z-10 opacity-95 px-3 top-0 w-full ${scrolled&&darkMode ? 'bg-black' : ''}  ${darkMode ? 'dark text-white' : 'bg-gray-200 text-black'}`}>
+      <nav className={` h-[10vh] z-10 opacity-95 px-3 top-0 w-full ${scrolled&&darkMode ? 'bg-black' : ''}  ${darkMode ? 'dark text-white' : 'bg-gray-200 text-black'}`}>
       
     <div className=" mx-auto flex justify-between items-center">
         <div className={`flex items-center justify-center`}>
@@ -55,7 +55,7 @@ const Navbar = () => {
 
 <>
   < AiOutlineClose color='white' className={`cursor-pointer ${darkMode ? 'color-white' : 'color-black'}`}  size={25} onClick={()=>setNav(!nav)} />
-<div className={`h-40 w-40  top-16 right-0 fixed  ${darkMode ? 'text-black bg-white' : 'text-white bg-slate-500'} `}>
+<div className={`h-40 w-40 top-16 right-0 fixed   ${darkMode ? 'text-black bg-white' : 'text-white bg-slate-500'} `}>
   <div className='flex flex-col items-center space-y-4 mt-4'>
   <Link  to="/" className=" font-bold ">Home</Link>
             

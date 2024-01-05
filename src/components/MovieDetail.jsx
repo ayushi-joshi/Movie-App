@@ -30,7 +30,7 @@ const MovieDetail = () => {
   }
 
   return (
-    <div className={`lg:flex lg:flex-row  lg:h-[92vh]   mt-12 flex-wrap font-bold p-10 ${darkMode ? 'text-white' : 'text-black'}`} >
+    <div className={`lg:flex lg:flex-row  lg:h-[90vh]    flex-wrap font-bold p-10 ${darkMode ? 'text-white' : 'text-black'}`} >
       <div className='relative h-full lg:w-2/5 p-2 flex justify-center' data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">

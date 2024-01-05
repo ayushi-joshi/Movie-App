@@ -55,7 +55,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact max-w-md mx-auto flex items-center justify-center h-[90vh] w-full">
+    <div className="contact max-w-md mx-auto flex items-center justify-center  w-full">
       <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 md:w-full">
         {isSubmitted && <p className="text-green-500 text-sm font-bold mb-4">Form is submitted successfully!</p>}
 
